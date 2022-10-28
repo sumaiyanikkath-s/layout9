@@ -1,0 +1,141 @@
+.header .wrapper
+{
+	width:80%;
+	margin:auto;
+}
+.business .wrapper
+{
+	width:80%;
+	margin:auto;
+}
+.action .wrapper
+{
+	width:80%;
+	margin:auto;
+}
+.card .wrapper
+{
+	width:80%;
+	margin:auto;
+}
+.website .wrapper
+{
+	width:80%;
+	margin:auto;
+}
+.header 
+{
+	background-color:plum;
+	height:85px;
+}
+.header-fc
+{ 
+	
+	display:flex;
+	justify-content:space-between;
+}
+.header .header-fc .header-logo
+{
+	background-color:salmon;
+	width:169px;
+	height:68px;
+	margin-top:5px;
+}
+.header .header-fc .header-navi
+{
+	background-color:salmon;
+	width:473px;
+	height:68px;
+	margin-top:5px;
+}
+.business
+{
+	background-color:gray;
+	height:391px;
+}
+.business .business-fc
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.business .business-fc .boxa
+{
+	
+	background-color:orchid;
+	height:309px;
+	width:500px;
+	margin-top:40px;
+}
+.business .business-fc .text
+{
+	text-align:center;
+	width:500px;
+	margin-top:40px;
+}
+.action
+{
+	background:lime;
+	height:153px;
+}
+.action .action-fc
+{
+	display:flex;
+	justify-content:center;
+}
+.action .action-fc .text
+{
+	text-align:center;
+	margin-top:75px;
+}
+.card 
+{
+	background:blue;
+	height:350px;
+}
+.card .card-fc
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+}
+
+.card .card-fc .boxa
+{
+	background:violet;
+	height:243px;
+	width:340px;
+	margin-top:20px;
+}
+.card .card-fc .boxb
+{
+	background:mediumturquoise;
+	height:243px;
+	width:340px;
+	margin-top:20px;
+}
+.card .card-fc .boxc
+{
+	background:violet;
+	height:243px;
+	width:340px;
+	margin-top:20px;
+}
+
+.website
+{
+	background-color:grey;
+	height:124px;
+}
+.website .website-fc
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+.website .website-fc .copyright
+{
+	background-color:white;
+	width:206px;
+	height:35px;
+	margin-top:50px;
+}
